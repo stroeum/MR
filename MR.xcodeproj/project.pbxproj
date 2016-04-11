@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3F23846A0DBEA64700F42BDC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3F23852E0DBF848C00F42BDC /* Lax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lax.h; sourceTree = "<group>"; };
+		3F23852F0DBF848C00F42BDC /* Lax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lax.cpp; sourceTree = "<group>"; };
+		3F2385300DBF89A400F42BDC /* MatrixFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixFunctions.h; sourceTree = "<group>"; };
+		3F2385310DBF89A400F42BDC /* MatrixFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixFunctions.cpp; sourceTree = "<group>"; };
+		3F2385E50DBFD6C500F42BDC /* ConductivityProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConductivityProfile.h; sourceTree = "<group>"; };
+		3F2385E60DBFD6C500F42BDC /* ConductivityProfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConductivityProfile.cpp; sourceTree = "<group>"; };
+		3F2686A40DBE7F47004BC7BD /* MpiFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpiFunctions.h; sourceTree = "<group>"; };
+		3F2686A50DBE7F47004BC7BD /* MpiFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MpiFunctions.cpp; sourceTree = "<group>"; };
+		3F2686A70DBE7F47004BC7BD /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		3F2686A80DBE7F47004BC7BD /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		3F2686AA0DBE7F47004BC7BD /* SorSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SorSolution.h; sourceTree = "<group>"; };
+		3F2686AB0DBE7F47004BC7BD /* SorSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SorSolution.cpp; sourceTree = "<group>"; };
+		3F2686AD0DBE7F47004BC7BD /* Sources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sources.h; sourceTree = "<group>"; };
+		3F2686AE0DBE7F47004BC7BD /* Sources.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sources.cpp; sourceTree = "<group>"; };
+		3F2686B00DBE7F47004BC7BD /* ResGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResGrid.h; sourceTree = "<group>"; };
+		3F2686B10DBE7F47004BC7BD /* ResGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResGrid.cpp; sourceTree = "<group>"; };
+		3F2686B30DBE7F47004BC7BD /* SizeDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeDomain.h; sourceTree = "<group>"; };
+		3F2686B40DBE7F47004BC7BD /* SizeDomain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SizeDomain.cpp; sourceTree = "<group>"; };
+		3F2686B50DBE7F47004BC7BD /* SizeGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeGrid.h; sourceTree = "<group>"; };
+		3F2686B60DBE7F47004BC7BD /* SizeGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SizeGrid.cpp; sourceTree = "<group>"; };
+		3F2686B70DBE7F47004BC7BD /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		3F2686B80DBE7F47004BC7BD /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		3F2686B90DBE7F47004BC7BD /* MpiInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MpiInput.h; sourceTree = "<group>"; };
+		3F2686BA0DBE7F47004BC7BD /* MpiInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MpiInput.cpp; sourceTree = "<group>"; };
+		3F2686BB0DBE7F47004BC7BD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3F2B00560DF5E84F00B549EC /* BoundaryConditions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoundaryConditions.cpp; sourceTree = "<group>"; };
+		3F2B00570DF5E84F00B549EC /* BoundaryConditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundaryConditions.h; sourceTree = "<group>"; };
+		3FA078BF0DD7AA670083BFD1 /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		3FA078C00DD7AA670083BFD1 /* Cloud.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cloud.cpp; sourceTree = "<group>"; };
+		3FCE8D1F0DD8D1FB009EEC6E /* AtmScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtmScaling.h; sourceTree = "<group>"; };
+		3FCE8D200DD8D1FB009EEC6E /* AtmScaling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AtmScaling.cpp; sourceTree = "<group>"; };
+		3FCE8E5E0DD8F795009EEC6E /* ScaledFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaledFields.h; sourceTree = "<group>"; };
+		3FCE8E5F0DD8F795009EEC6E /* ScaledFields.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScaledFields.cpp; sourceTree = "<group>"; };
+		3FCE92700DE1ED57009EEC6E /* IOFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOFunctions.h; sourceTree = "<group>"; };
+		3FCE92710DE1ED57009EEC6E /* IOFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOFunctions.cpp; sourceTree = "<group>"; };
+		3FCE93CA0DE49510009EEC6E /* MathFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathFunctions.h; sourceTree = "<group>"; };
+		3FCE93CB0DE49511009EEC6E /* MathFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathFunctions.cpp; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* MR.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MR.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* MR */ = {
+			isa = PBXGroup;
+			children = (
+				3F23846A0DBEA64700F42BDC /* main.cpp */,
+				3F23852E0DBF848C00F42BDC /* Lax.h */,
+				3F23852F0DBF848C00F42BDC /* Lax.cpp */,
+				3F26869F0DBE7F25004BC7BD /* Level 3 */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = MR;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F26869F0DBE7F25004BC7BD /* Level 3 */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B00570DF5E84F00B549EC /* BoundaryConditions.h */,
+				3F2B00560DF5E84F00B549EC /* BoundaryConditions.cpp */,
+				3F2686A20DBE7F47004BC7BD /* Level 2 */,
+			);
+			name = "Level 3";
+			sourceTree = "<group>";
+		};
+		3F2686A20DBE7F47004BC7BD /* Level 2 */ = {
+			isa = PBXGroup;
+			children = (
+				3F2686A40DBE7F47004BC7BD /* MpiFunctions.h */,
+				3F2686A50DBE7F47004BC7BD /* MpiFunctions.cpp */,
+				3FCE92700DE1ED57009EEC6E /* IOFunctions.h */,
+				3FCE92710DE1ED57009EEC6E /* IOFunctions.cpp */,
+				3F2686A30DBE7F47004BC7BD /* Level 1 */,
+			);
+			name = "Level 2";
+			sourceTree = "<group>";
+		};
+		3F2686A30DBE7F47004BC7BD /* Level 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3F2686A70DBE7F47004BC7BD /* Input.h */,
+				3F2686A80DBE7F47004BC7BD /* Input.cpp */,
+				3F2686A60DBE7F47004BC7BD /* Level 0 */,
+			);
+			name = "Level 1";
+			sourceTree = "<group>";
+		};
+		3F2686A60DBE7F47004BC7BD /* Level 0 */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE8E5E0DD8F795009EEC6E /* ScaledFields.h */,
+				3FCE8E5F0DD8F795009EEC6E /* ScaledFields.cpp */,
+				3F2686AA0DBE7F47004BC7BD /* SorSolution.h */,
+				3F2686AB0DBE7F47004BC7BD /* SorSolution.cpp */,
+				3F2385E50DBFD6C500F42BDC /* ConductivityProfile.h */,
+				3F2385E60DBFD6C500F42BDC /* ConductivityProfile.cpp */,
+				3F2686A90DBE7F47004BC7BD /* Level -1 */,
+			);
+			name = "Level 0";
+			sourceTree = "<group>";
+		};
+		3F2686A90DBE7F47004BC7BD /* Level -1 */ = {
+			isa = PBXGroup;
+			children = (
+				3FA078BF0DD7AA670083BFD1 /* Cloud.h */,
+				3FA078C00DD7AA670083BFD1 /* Cloud.cpp */,
+				3F2686AC0DBE7F47004BC7BD /* Level -2 */,
+			);
+			name = "Level -1";
+			sourceTree = "<group>";
+		};
+		3F2686AC0DBE7F47004BC7BD /* Level -2 */ = {
+			isa = PBXGroup;
+			children = (
+				3F2686AD0DBE7F47004BC7BD /* Sources.h */,
+				3F2686AE0DBE7F47004BC7BD /* Sources.cpp */,
+				3F2385300DBF89A400F42BDC /* MatrixFunctions.h */,
+				3F2385310DBF89A400F42BDC /* MatrixFunctions.cpp */,
+				3F2686AF0DBE7F47004BC7BD /* Level -3 */,
+			);
+			name = "Level -2";
+			sourceTree = "<group>";
+		};
+		3F2686AF0DBE7F47004BC7BD /* Level -3 */ = {
+			isa = PBXGroup;
+			children = (
+				3F2686B00DBE7F47004BC7BD /* ResGrid.h */,
+				3F2686B10DBE7F47004BC7BD /* ResGrid.cpp */,
+				3F2686B20DBE7F47004BC7BD /* Level -4 */,
+			);
+			name = "Level -3";
+			sourceTree = "<group>";
+		};
+		3F2686B20DBE7F47004BC7BD /* Level -4 */ = {
+			isa = PBXGroup;
+			children = (
+				3F2686B30DBE7F47004BC7BD /* SizeDomain.h */,
+				3F2686B40DBE7F47004BC7BD /* SizeDomain.cpp */,
+				3F2686B50DBE7F47004BC7BD /* SizeGrid.h */,
+				3F2686B60DBE7F47004BC7BD /* SizeGrid.cpp */,
+				3F2686B70DBE7F47004BC7BD /* Matrix.h */,
+				3F2686B80DBE7F47004BC7BD /* Matrix.cpp */,
+				3F2686B90DBE7F47004BC7BD /* MpiInput.h */,
+				3F2686BA0DBE7F47004BC7BD /* MpiInput.cpp */,
+				3F2686BB0DBE7F47004BC7BD /* Constants.h */,
+				3FCE8D1F0DD8D1FB009EEC6E /* AtmScaling.h */,
+				3FCE8D200DD8D1FB009EEC6E /* AtmScaling.cpp */,
+				3FCE93CA0DE49510009EEC6E /* MathFunctions.h */,
+				3FCE93CB0DE49511009EEC6E /* MathFunctions.cpp */,
+			);
+			name = "Level -4";
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* MR.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		3F2686D30DBE8007004BC7BD /* makefile */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 3F2686DA0DBE801F004BC7BD /* Build configuration list for PBXLegacyTarget "makefile" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = makefile;
+			passBuildSettingsInEnvironment = 1;
+			productName = makefile;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MR" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* MR */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2686D30DBE8007004BC7BD /* makefile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		3F2686D40DBE8008004BC7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = makefile;
+			};
+			name = Debug;
+		};
+		3F2686D50DBE8008004BC7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = makefile;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2686DA0DBE801F004BC7BD /* Build configuration list for PBXLegacyTarget "makefile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2686D40DBE8008004BC7BD /* Debug */,
+				3F2686D50DBE8008004BC7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
